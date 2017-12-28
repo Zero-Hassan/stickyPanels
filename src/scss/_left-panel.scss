@@ -1,0 +1,39 @@
+.left-panel{
+    width: 50%;
+    padding: 5px 0;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: all 300ms ease-out;
+    background: #999;
+    &__secondary-menu{
+        width: 100%;
+        ul{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                padding: 5px;
+                a{
+                    color:#222;
+                    text-decoration: none;
+
+                }
+            }
+        }
+          
+      }
+    @include atMedium{
+        width: 20%;
+        position: relative;
+        transform: translateX(0);
+        transition: none;
+    }
+   &__is-open{
+       transform: translate(0);
+       z-index:99;
+   }   
+}

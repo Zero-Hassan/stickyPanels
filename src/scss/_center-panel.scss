@@ -1,0 +1,15 @@
+.center-panel{
+    width: 100%;
+    display: flex;
+    padding:5px; 
+    box-sizing: border-box;
+        &__item{
+            padding: 25px;
+            border:1px solid #999;
+            border-radius:3px;
+            margin-bottom: 5px;
+        }
+   @include atMedium{
+       width: 60%;
+   }     
+}

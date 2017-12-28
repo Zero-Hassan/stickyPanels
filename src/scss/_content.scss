@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 60px;
+    @include atMedium{
+        flex-direction: row;
+        padding-top: 0;
+    }
+} 
+  
+    
+  
