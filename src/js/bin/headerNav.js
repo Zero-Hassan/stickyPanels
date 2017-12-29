@@ -31,7 +31,7 @@ class HeaderNav{
     addNewItem(title){
         let li=document.createElement("li");
         let a=document.createElement("a");
-        a.innerHTML=title;
+        a.innerHTML='<i class="fa fa-ellipsis-v"></i>';
         li.appendChild(a);
         li.addEventListener('click',(e)=>{
             this.toggleLeftPanel();
