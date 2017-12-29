@@ -36,7 +36,7 @@ class HeaderNav{
         li.addEventListener('click',(e)=>{
             this.toggleLeftPanel();
         });
-        this.menu.addFirst(li);
+        this.menu.addLast(li);
     }
 
     toggleLeftPanel(){
