@@ -6,9 +6,10 @@
     bottom: 0;
     transform: translateX(-100%);
     transition: all 300ms ease-out;
-    background: #999;
+    
     &__secondary-menu{
         width: 100%;
+        background:$primary;
         ul{
             display: flex;
             flex-direction: column;
@@ -18,7 +19,7 @@
             li{
                 padding: 5px;
                 a{
-                    color:#222;
+                    color:#fff;
                     text-decoration: none;
 
                 }
@@ -31,6 +32,7 @@
         position: relative;
         transform: translateX(0);
         transition: none;
+        background: inherit;
     }
    &__is-open{
        transform: translate(0);

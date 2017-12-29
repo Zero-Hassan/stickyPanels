@@ -1,4 +1,6 @@
 .inner{
-    width: 100%;
-    background: rgba(179, 180, 178, 0.219); 
+    width: 100%; 
+    &__bg_primary{
+        background: $primary;
+    }
 }
